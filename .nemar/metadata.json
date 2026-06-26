@@ -1,38 +1,132 @@
 {
   "version": "2.0",
-  "dataset_id": "on005169",
-  "source": "openneuro",
-  "source_id": "ds005169",
+  "pipeline_stage": "enriched",
   "title": "Dataset of intracranial EEG during cortical stimulation evoking visual effects",
-  "authors": {
-    "Andrei Barborica": {},
-    "Felicia Mihai": {},
-    "Laurentiu Tofan": {},
-    "Irina Oane": {},
-    "Ioana Mindruta": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Andrei Barborica": {
+      "orcid": "0000-0001-6783-3769",
+      "affiliations": [
+        {
+          "name": "Physics Department University of Bucharest  Bucharest Romania"
+        },
+        {
+          "name": "FHC Inc.  Bowdoin Maine USA"
+        }
+      ]
+    },
+    "Felicia Mihai": {
+      "orcid": "0000-0001-7324-5525",
+      "affiliations": [
+        {
+          "name": "Physics Department University of Bucharest  Bucharest Romania"
+        }
+      ]
+    },
+    "Laurentiu Tofan": {},
+    "Irina Oane": {
+      "orcid": "0000-0002-3796-0676",
+      "affiliations": [
+        {
+          "name": "Epilepsy Monitoring Unit, Neurology Department Emergency University Hospital Bucharest  Bucharest Romania"
+        }
+      ]
+    },
+    "Ioana Mindruta": {
+      "orcid": "0000-0001-9329-5132",
+      "affiliations": [
+        {
+          "name": "Epilepsy Monitoring Unit, Neurology Department Emergency University Hospital Bucharest  Bucharest Romania"
+        },
+        {
+          "name": "Neurology Department, Faculty of Medicine Carol Davila University of Medicine and Pharmacy Bucharest  Bucharest Romania"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005169.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005169",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005169",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1002/hbm.25749",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "anat",
-    "ieeg"
-  ],
-  "datatypes": [
-    "anat",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Romanian UEFISCDI PN-III-P4-ID-PCE-2020-0935"
+      "funder_name": "Romanian UEFISCDI",
+      "award_number": "PN-III-P4-ID-PCE-2020-0935"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "ieeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".nii",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises intracranial EEG recordings from 22 patients undergoing stereo-EEG evaluation for drug-resistant epilepsy, capturing neural responses to 115 high-frequency stimulation events that evoked visual hallucinations. Each recording contains 21 seconds of iEEG data (8 seconds pre-stimulation, up to 5 seconds stimulation, and 8 seconds post-stimulation) with bipolar stimulation parameters and clinical effect classifications across 14 visual symptom categories. The dataset enables investigation of brain networks underlying cortical visual effects through alternating polarity stimulation protocols.",
+  "methods_description": "High-frequency bipolar intracranial stimulations were delivered using alternating polarity biphasic pulses (1 ms duration) at 43.2 Hz or 50 Hz with current intensities between 0.25-3 mA for up to 5 seconds. iEEG recordings were acquired for 21 seconds per stimulation event (8 seconds pre-stimulation, stimulation period, and 8 seconds post-stimulation). Stimulation contact pairs, current intensity levels, and evoked clinical effects were documented in event files.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "cortical stimulation"
+    },
+    {
+      "term": "visual hallucinations"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "drug-resistant epilepsy"
+    },
+    {
+      "term": "brain networks"
+    },
+    {
+      "term": "high-frequency stimulation"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "presurgical evaluation"
+    },
+    {
+      "term": "bipolar stimulation"
+    },
+    {
+      "term": "alternating polarity protocol"
+    }
+  ],
+  "source_hash": "718a7d850962035973303d6bd2c8c03e4ac92908787e20adf849f64014882788"
 }
