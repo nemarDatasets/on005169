@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005169-blue)](https://doi.org/10.82901/nemar.on005169)
+
 In this dataset we included iEEG recordings of responses to 115 intracranial high frequency stimulations evoking 
 visual hallucinations, in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy.
 
