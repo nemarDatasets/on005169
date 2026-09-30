@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of intracranial EEG during cortical stimulation evoking visual effects",
-  "description": "This dataset comprises intracranial EEG (iEEG) recordings from 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy, capturing responses to 115 high-frequency cortical stimulations that evoked visual hallucinations. Each recording includes 21 seconds of iEEG data surrounding each stimulation event, with detailed annotations of stimulation parameters and 14 categories of evoked clinical visual phenomena. The dataset supports investigation of brain networks underlying stimulation-evoked visual symptoms and enables construction of symptom-related activation and connectivity maps.",
-  "methods_description": "High-frequency bipolar intracranial stimulations were delivered using alternating polarity biphasic pulses of 1 ms duration at 43.2 Hz or 50 Hz, with current intensities between 0.25 and 3 mA, for up to 5 seconds. The alternating polarity protocol was used to disambiguate neuronal responses time-locked to stimulation from artefactual components. Recordings span 8 seconds before stimulation onset, the stimulation period (up to 5 s), and 8 seconds after stimulation offset. Stimulation contact pairs, current intensity, and evoked clinical effects were documented in accompanying events files.",
+  "description": "Intracranial EEG (stereo-EEG) recordings from 22 patients with drug-resistant epilepsy undergoing presurgical evaluation, capturing responses to 115 high-frequency intracranial electrical stimulations that evoked visual hallucinations. Each recording spans 21 seconds around the stimulation, with events annotated by stimulated contact pair, current intensity, and evoked effect, classified into 14 clinical categories. The data support identification of brain networks underlying visual symptoms and creation of symptom-related activation and connectivity maps.",
+  "methods_description": "High-frequency bipolar stimulation was delivered through intracranial contacts using alternating-polarity biphasic pulses of 1 ms duration at 43.2 or 50 Hz, with current intensity of 0.25 to 3 mA for up to 5 s. Each epoch includes 8 s before stimulation, up to 5 s of stimulation, and 8 s after stimulation. The alternating-polarity protocol allows neuronal responses time-locked to pulses to be separated from stimulation artefacts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -49,38 +49,27 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "intracranial EEG"
-    },
-    {
-      "term": "cortical stimulation"
-    },
-    {
-      "term": "visual hallucinations"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
       "term": "stereo-EEG"
     },
     {
-      "term": "presurgical evaluation"
+      "term": "Electric Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004558"
     },
     {
-      "term": "brain connectivity"
+      "term": "visual hallucinations"
     },
     {
-      "term": "stimulation mapping"
+      "term": "drug-resistant epilepsy"
     },
     {
       "term": "high-frequency stimulation"
+    },
+    {
+      "term": "effective connectivity"
     }
   ],
   "related_identifiers": [
@@ -92,7 +81,7 @@
     {
       "identifier": "10.1002/hbm.25749",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds005169.v1.0.0",
@@ -118,7 +107,7 @@
     "ieeg"
   ],
   "sizes": [
-    "4.3 GB (355 files)"
+    "3.98 GB (355 files)"
   ],
   "formats": [
     ".eeg",
